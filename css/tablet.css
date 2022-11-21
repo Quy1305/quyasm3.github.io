@@ -1,0 +1,16 @@
+@media screen and (max-width: 992px) {
+  .job-info-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .job-info-6 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+
+  .job-info-5 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+}
