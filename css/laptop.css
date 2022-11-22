@@ -30,10 +30,6 @@ h4 {
   margin: 5px;
 }
 
-#nav-bar {
-  text-align: center;
-}
-
 ul {
   list-style-type: none;
 }
@@ -148,6 +144,7 @@ a:hover {
   padding: 30px;
   font-size: 15px;
   height: 100%;
+  border-radius: 3%;
 }
 .job-info-content h1 {
   font-size: 28px;
@@ -164,7 +161,7 @@ a:hover {
 
 .layout-item {
   grid-area: 2 / 1 / 3 / 3;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .layout-item ul {
@@ -311,12 +308,6 @@ a:hover {
   text-align: center;
 }
 
-#nav-bar {
-  display: block;
-  font-size: 20px;
-  text-align: center;
-}
-
 #nav-bar a:link,
 a:visited {
   text-decoration: none;
@@ -424,8 +415,16 @@ th {
   color: white;
 }
 
+.job-hobby span {
+  background-color: white;
+}
+
 #project a {
   color: black;
+}
+
+#project table {
+  height: 250px;
 }
 
 #footer a {
@@ -465,3 +464,4 @@ a:active {
 .hide {
   display: none;
 }
+
